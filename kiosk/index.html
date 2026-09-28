@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html class="no-touch" lang="en-AU" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="https://austyle.com.au/xmlrpc.php">
+<title>Kiosk &#8211; Austyle Architectural Hardware</title>
+<meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='https://www.google.com' />
+
+
+
+
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<link rel="stylesheet" id="wp-emoji-styles-inline-css" href="/shared-styles/5a21c45475f2206c98ea.css">
+<link rel="stylesheet" id="wp-block-library-inline-css" href="/shared-styles/b04f0ba1fb7ab36fa4f8.css">
+<link rel="stylesheet" id="classic-theme-styles-inline-css" href="/shared-styles/0198c17b3620886acc07.css">
+
+<link rel="stylesheet" id="global-styles-inline-css" href="/shared-styles/b5adea80e8c285b93a6c.css">
+
+<link rel='stylesheet' id='contact-form-7-css' href='/wp-content/plugins/contact-form-7/includes/css/styles.css' media='all' />
+<link rel='stylesheet' id='wpdm-font-awesome-css' href='/wp-content/plugins/download-manager/assets/fontawesome/css/all.min.css' media='all' />
+<link rel='stylesheet' id='wpdm-front-bootstrap-css' href='/wp-content/plugins/download-manager/assets/bootstrap/css/bootstrap.min.css' media='all' />
+<link rel='stylesheet' id='wpdm-front-css' href='/wp-content/plugins/download-manager/assets/css/front.css' media='all' />
+<style id="woocommerce-inline-inline-css">
+.woocommerce form .form-row .required { visibility: visible; }
+/*# sourceURL=woocommerce-inline-inline-css */
+</style>
+<link rel='stylesheet' id='aws-style-css' href='/wp-content/plugins/advanced-woo-search/assets/css/common.css' media='all' />
+<link rel='stylesheet' id='uncode-style-css' href='/wp-content/themes/uncode/library/css/style.css' media='all' />
+<link rel="stylesheet" id="uncode-style-inline-css" href="/shared-styles/0a6d0a50c3fabd6b7311.css">
+<link rel='stylesheet' id='uncode-woocommerce-css' href='/wp-content/themes/uncode/library/css/woocommerce.css' media='all' />
+<link rel='stylesheet' id='uncode-icons-css' href='/wp-content/themes/uncode/library/css/uncode-icons.css' media='all' />
+<link rel='stylesheet' id='uncode-custom-style-css' href='/wp-content/themes/uncode/library/css/style-custom.css' media='all' />
+<link rel="stylesheet" id="uncode-custom-style-inline-css" href="/shared-styles/f0755c8334ad23ae3c3d.css">
+<link rel='stylesheet' id='child-style-css' href='/wp-content/themes/uncode-child/style.css' media='all' />
+<script id="jquery-core-js" src="/wp-includes/js/jquery/jquery.min.js"></script>
+<script id="jquery-migrate-js" src="/wp-includes/js/jquery/jquery-migrate.min.js"></script>
+<script id="wpdm-poper-js" src="/wp-content/plugins/download-manager/assets/bootstrap/js/popper.min.js"></script>
+<script id="wpdm-front-bootstrap-js" src="/wp-content/plugins/download-manager/assets/bootstrap/js/bootstrap.min.js"></script>
+<script id="wpdm-frontjs-js-extra">
+var wpdm_url = {"home":"https://austyle.com.au/","site":"https://austyle.com.au/","ajax":"https://austyle.com.au/wp-admin/admin-ajax.php"};
+var wpdm_js = {"spinner":"\u003Ci class=\"fas fa-sun fa-spin\"\u003E\u003C/i\u003E"};
+//# sourceURL=wpdm-frontjs-js-extra
+</script>
+<script id="wpdm-frontjs-js" src="/wp-content/plugins/download-manager/assets/js/front.js"></script>
+<script id="ucs-frontend-script-js-extra">
+var ucs_frontend = {"ajaxurl":"https://austyle.com.au/wp-admin/admin-ajax.php","nonce":"819c7a6122"};
+//# sourceURL=ucs-frontend-script-js-extra
+</script>
+<script id="ucs-frontend-script-js" src="/wp-content/plugins/upsells-cross-sells/assets/js/frontend_scripts.js"></script>
+<script id="jquery-blockui-js" src="/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js"></script>
+<script id="wc-add-to-cart-js-extra">
+var wc_add_to_cart_params = {"ajax_url":"/wp-admin/admin-ajax.php","wc_ajax_url":"/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"https://austyle.com.au/cart/","is_cart":"","cart_redirect_after_add":"no"};
+//# sourceURL=wc-add-to-cart-js-extra
+</script>
+<script id="wc-add-to-cart-js" src="/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js"></script>
+<script id="vc_woocommerce-add-to-cart-js-js" src="/wp-content/plugins/uncode-js_composer/assets/js/vendors/woocommerce-add-to-cart.js"></script>
+<script id="custom-script-js" src="/wp-content/themes/uncode-child/assets/js/custom.js"></script>
+<script id="uncode-init-js-extra">
+var SiteParameters = {"days":"days","hours":"hours","minutes":"minutes","seconds":"seconds","constant_scroll":"on","scroll_speed":"2","parallax_factor":"0.25","loading":"Loading\u2026","slide_name":"slide","slide_footer":"footer","ajax_url":"https://austyle.com.au/wp-admin/admin-ajax.php","nonce_adaptive_images":"50854c88da","nonce_srcset_async":"e9dbfe9726","enable_debug":"","block_mobile_videos":"","is_frontend_editor":"","main_width":["1200","px"],"mobile_parallax_allowed":"","wireframes_plugin_active":"1","sticky_elements":"off","lazyload_type":"","resize_quality":"90","register_metadata":"","bg_changer_time":"1000","update_wc_fragments":"1","optimize_shortpixel_image":"","custom_cursor_selector":"[href], .trigger-overlay, .owl-next, .owl-prev, .owl-dot, input[type=\"submit\"], button[type=\"submit\"], a[class^=\"ilightbox\"], .ilightbox-thumbnail, .ilightbox-prev, .ilightbox-next, .overlay-close, .unmodal-close, .qty-inset \u003E span, .share-button li, .uncode-post-titles .tmb.tmb-click-area, .btn-link, .tmb-click-row .t-inside, .lg-outer button, .lg-thumb img","mobile_parallax_animation":"","lbox_enhanced":"","native_media_player":"1"};
+//# sourceURL=uncode-init-js-extra
+</script>
+<script id="uncode-init-js" src="/wp-content/themes/uncode/library/js/init.js"></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://austyle.com.au/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 7.1.2" />
+<meta name="generator" content="WooCommerce 6.8.2" />
+
+<link rel='shortlink' href='/index.html' />
+<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+<link rel="icon" href="/wp-content/uploads/cropped-Favicon-32x32.webp" sizes="32x32" />
+<link rel="icon" href="/wp-content/uploads/cropped-Favicon-192x192.webp" sizes="192x192" />
+<link rel="apple-touch-icon" href="/wp-content/uploads/cropped-Favicon-180x180.webp" />
+<meta name="msapplication-TileImage" content="https://austyle.com.au/wp-content/uploads/cropped-Favicon-270x270.png" />
+<noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript><meta name="generator" content="WordPress Download Manager 3.2.54" />
+
+<link href="https://fonts.googleapis.com/css?family=Rubik"
+rel="stylesheet">
+<link rel="stylesheet" href="/shared-styles/2d83540a683a15c98cf9.css">
+<style>
+/* WPDM Link Template Styles */        </style>
+<link rel="stylesheet" href="/shared-styles/b3a9f0bf4bdcec0ecd09.css">
+<meta name="robots" content="noindex,nofollow"><link rel="stylesheet" href="/demo.css"></head>
+<body class="wp-singular page-template-default page page-id-5988 wp-theme-uncode wp-child-theme-uncode-child  style-color-xsdn-bg theme-uncode woocommerce-no-js hormenu-position-left megamenu-full-submenu hmenu hmenu-position-center header-full-width main-center-align menu-mobile-transparent menu-has-cta mobile-parallax-not-allowed ilb-no-bounce uncode-wc-single-product-slider-enabled qw-body-scroll-disabled uncode-sidecart-mobile-disabled wpb-js-composer js-comp-ver-6.9.0 vc_responsive" data-border="0">
+<div id="vh_layout_help"></div><div class="body-borders" data-border="0"><div class="top-border body-border-shadow"></div><div class="right-border body-border-shadow"></div><div class="bottom-border body-border-shadow"></div><div class="left-border body-border-shadow"></div><div class="top-border style-light-bg"></div><div class="right-border style-light-bg"></div><div class="bottom-border style-light-bg"></div><div class="left-border style-light-bg"></div></div>	<div class="box-wrapper">
+<div class="box-container">
+<script type="text/javascript" id="initBox">UNCODE.initBox();</script>
+<script type="text/javascript" id="fixMenuHeight">UNCODE.fixMenuHeight();</script>
+<div class="main-wrapper">
+<div class="main-container">
+<div class="page-wrapper">
+<div class="sections-container">
+<script type="text/javascript">UNCODE.initHeader();</script><article id="post-5988" class="page-body style-light-bg post-5988 page type-page status-publish hentry">
+<div class="post-wrapper">
+<div class="post-body"><div class="post-content un-no-sidebar-layout"><div data-parent="true" class="vc_row row-container" id="row-unique-0"><div class="row single-top-padding no-bottom-padding single-h-padding limit-width row-parent"><div class="wpb_row row-inner"><div class="wpb_column pos-top pos-center align_center column_parent col-lg-12 single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont"><div class="vc_custom_heading_wrap "><div class="heading-text el-text" ><h3 class="h3 text-uppercase" ><span>Select your door furniture option below</span></h3></div><div class="clear"></div></div></div></div></div></div></div><script id="script-row-unique-0" data-row="script-row-unique-0" type="text/javascript" class="vc_controls">UNCODE.initRow(document.getElementById("row-unique-0"));</script></div></div></div><div data-parent="true" class="vc_row row-container" id="kiosk-first-tier"><div class="row limit-width row-parent"><div class="wpb_row row-inner"><div class="wpb_column pos-top pos-center align_left column_parent col-lg-4 hinged-caption single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont"><div class="uncode-single-media  text-left" id="hinged"><div class="single-wrapper" style="max-width: 100%;"><div class="tmb tmb-light  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg"><div class="t-inside"><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="uncode-single-media-wrapper"><img fetchpriority="high" decoding="async" class="wp-image-6067" src="/wp-content/uploads/kiosk-hinged-main.webp" width="1290" height="1170" alt="" srcset="/wp-content/uploads/kiosk-hinged-main.webp 1290w, /wp-content/uploads/kiosk-hinged-main-300x272.webp 300w, /wp-content/uploads/kiosk-hinged-main-1024x929.webp 1024w, /wp-content/uploads/kiosk-hinged-main-768x697.webp 768w, /wp-content/uploads/kiosk-hinged-main-600x544.webp 600w" sizes="(max-width: 1290px) 100vw, 1290px" /></div>
+</div>
+</div></div></div></div><figcaption>HINGED<br/>
+DOORS</figcaption></div></div></div></div></div></div><div class="wpb_column pos-top pos-center align_left column_parent col-lg-4 digital-caption single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont"><div class="uncode-single-media  text-left" id="digital"><div class="single-wrapper" style="max-width: 100%;"><div class="tmb tmb-light  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg"><div class="t-inside"><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="uncode-single-media-wrapper"><img decoding="async" class="wp-image-6068" src="/wp-content/uploads/kiosk-digital-main.webp" width="1290" height="1170" alt="" srcset="/wp-content/uploads/kiosk-digital-main.webp 1290w, /wp-content/uploads/kiosk-digital-main-300x272.webp 300w, /wp-content/uploads/kiosk-digital-main-1024x929.webp 1024w, /wp-content/uploads/kiosk-digital-main-768x697.webp 768w, /wp-content/uploads/kiosk-digital-main-600x544.webp 600w" sizes="(max-width: 1290px) 100vw, 1290px" /></div>
+</div>
+</div></div></div></div><figcaption>SMART DIGITAL<br/>
+SECURITY</figcaption></div></div></div></div></div></div><div class="wpb_column pos-top pos-center align_left column_parent col-lg-4 sliding-caption single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont"><div class="uncode-single-media  text-left" id="sliding"><div class="single-wrapper" style="max-width: 100%;"><div class="tmb tmb-light  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg"><div class="t-inside"><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="uncode-single-media-wrapper"><img decoding="async" class="wp-image-6069" src="/wp-content/uploads/kiosk-sliding-main.webp" width="1290" height="1170" alt="" srcset="/wp-content/uploads/kiosk-sliding-main.webp 1290w, /wp-content/uploads/kiosk-sliding-main-300x272.webp 300w, /wp-content/uploads/kiosk-sliding-main-1024x929.webp 1024w, /wp-content/uploads/kiosk-sliding-main-768x697.webp 768w, /wp-content/uploads/kiosk-sliding-main-600x544.webp 600w" sizes="(max-width: 1290px) 100vw, 1290px" /></div>
+</div>
+</div></div></div></div><figcaption>SLIDING<br/>
+DOORS</figcaption></div></div></div></div></div></div><script id="script-kiosk-first-tier" data-row="script-kiosk-first-tier" type="text/javascript" class="vc_controls">UNCODE.initRow(document.getElementById("kiosk-first-tier"));</script></div></div></div><div data-parent="true" class="vc_row row-container" id="select-type"><div class="row single-top-padding no-bottom-padding single-h-padding limit-width row-parent"><div class="wpb_row row-inner"><div class="wpb_column pos-top pos-center align_center column_parent col-lg-12 single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont"><div class="vc_custom_heading_wrap "><div class="heading-text el-text" ><h3 class="h3 text-uppercase" ><span>Select your door type</span></h3></div><div class="clear"></div></div></div></div></div></div></div><script id="script-select-type" data-row="script-select-type" type="text/javascript" class="vc_controls">UNCODE.initRow(document.getElementById("select-type"));</script></div></div></div><div data-parent="true" class="vc_row row-container" id="hinged-second-tier"><div class="row limit-width row-parent"><div class="wpb_row row-inner"><div class="wpb_column pos-top pos-center align_left column_parent col-lg-4 hinged-caption single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont"><div class="uncode-single-media  text-left" id="hinged-1"><div class="single-wrapper" style="max-width: 100%;"><div class="tmb tmb-light  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg"><div class="t-inside"><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="uncode-single-media-wrapper"><img decoding="async" class="wp-image-6074" src="/wp-content/uploads/kiosk-placeholderr.webp" width="1290" height="1170" alt="" srcset="/wp-content/uploads/kiosk-placeholderr.webp 1290w, /wp-content/uploads/kiosk-placeholderr-300x272.webp 300w, /wp-content/uploads/kiosk-placeholderr-1024x929.webp 1024w, /wp-content/uploads/kiosk-placeholderr-768x697.webp 768w, /wp-content/uploads/kiosk-placeholderr-600x544.webp 600w" sizes="(max-width: 1290px) 100vw, 1290px" /></div>
+</div>
+</div></div></div></div><figcaption>TITLE</figcaption></div></div></div></div></div></div><div class="wpb_column pos-top pos-center align_left column_parent col-lg-4 hinged-caption single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont"><div class="uncode-single-media  text-left" id="hinged-2"><div class="single-wrapper" style="max-width: 100%;"><div class="tmb tmb-light  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg"><div class="t-inside"><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="uncode-single-media-wrapper"><img decoding="async" class="wp-image-6074" src="/wp-content/uploads/kiosk-placeholderr.webp" width="1290" height="1170" alt="" srcset="/wp-content/uploads/kiosk-placeholderr.webp 1290w, /wp-content/uploads/kiosk-placeholderr-300x272.webp 300w, /wp-content/uploads/kiosk-placeholderr-1024x929.webp 1024w, /wp-content/uploads/kiosk-placeholderr-768x697.webp 768w, /wp-content/uploads/kiosk-placeholderr-600x544.webp 600w" sizes="(max-width: 1290px) 100vw, 1290px" /></div>
+</div>
+</div></div></div></div><figcaption>TITLE</figcaption></div></div></div></div></div></div><div class="wpb_column pos-top pos-center align_left column_parent col-lg-4 hinged-caption single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont"><div class="uncode-single-media  text-left" id="hinged-3"><div class="single-wrapper" style="max-width: 100%;"><div class="tmb tmb-light  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg"><div class="t-inside"><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="uncode-single-media-wrapper"><img decoding="async" class="wp-image-6074" src="/wp-content/uploads/kiosk-placeholderr.webp" width="1290" height="1170" alt="" srcset="/wp-content/uploads/kiosk-placeholderr.webp 1290w, /wp-content/uploads/kiosk-placeholderr-300x272.webp 300w, /wp-content/uploads/kiosk-placeholderr-1024x929.webp 1024w, /wp-content/uploads/kiosk-placeholderr-768x697.webp 768w, /wp-content/uploads/kiosk-placeholderr-600x544.webp 600w" sizes="(max-width: 1290px) 100vw, 1290px" /></div>
+</div>
+</div></div></div></div><figcaption>TITLE</figcaption></div></div></div></div></div></div><script id="script-hinged-second-tier" data-row="script-hinged-second-tier" type="text/javascript" class="vc_controls">UNCODE.initRow(document.getElementById("hinged-second-tier"));</script></div></div></div><div data-parent="true" class="vc_row row-container" id="select-finish-hinged"><div class="row single-top-padding no-bottom-padding single-h-padding limit-width row-parent"><div class="wpb_row row-inner"><div class="wpb_column pos-top pos-center align_center column_parent col-lg-12 single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont"><div class="vc_custom_heading_wrap "><div class="heading-text el-text" ><h3 class="h3 text-uppercase" ><span>Select your finish</span></h3></div><div class="clear"></div></div></div></div></div></div></div><script id="script-select-finish-hinged" data-row="script-select-finish-hinged" type="text/javascript" class="vc_controls">UNCODE.initRow(document.getElementById("select-finish-hinged"));</script></div></div></div><div data-parent="true" class="vc_row row-container" id="hinged-third-tier-1"><div class="row limit-width row-parent"><div class="wpb_row row-inner"><div class="wpb_column pos-top pos-center align_left column_parent col-lg-2 hinged-caption single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont"><div class="uncode-single-media  text-left" id="hinged-1"><div class="single-wrapper" style="max-width: 100%;"><div class="tmb tmb-light  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg"><div class="t-inside"><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="uncode-single-media-wrapper"><img decoding="async" class="wp-image-6074" src="/wp-content/uploads/kiosk-placeholderr.webp" width="1290" height="1170" alt="" srcset="/wp-content/uploads/kiosk-placeholderr.webp 1290w, /wp-content/uploads/kiosk-placeholderr-300x272.webp 300w, /wp-content/uploads/kiosk-placeholderr-1024x929.webp 1024w, /wp-content/uploads/kiosk-placeholderr-768x697.webp 768w, /wp-content/uploads/kiosk-placeholderr-600x544.webp 600w" sizes="(max-width: 1290px) 100vw, 1290px" /></div>
+</div>
+</div></div></div></div><figcaption>TITLE</figcaption></div></div></div></div></div></div><div class="wpb_column pos-top pos-center align_left column_parent col-lg-2 hinged-caption single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont"><div class="uncode-single-media  text-left" id="hinged-1"><div class="single-wrapper" style="max-width: 100%;"><div class="tmb tmb-light  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg"><div class="t-inside"><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="uncode-single-media-wrapper"><img decoding="async" class="wp-image-6074" src="/wp-content/uploads/kiosk-placeholderr.webp" width="1290" height="1170" alt="" srcset="/wp-content/uploads/kiosk-placeholderr.webp 1290w, /wp-content/uploads/kiosk-placeholderr-300x272.webp 300w, /wp-content/uploads/kiosk-placeholderr-1024x929.webp 1024w, /wp-content/uploads/kiosk-placeholderr-768x697.webp 768w, /wp-content/uploads/kiosk-placeholderr-600x544.webp 600w" sizes="(max-width: 1290px) 100vw, 1290px" /></div>
+</div>
+</div></div></div></div><figcaption>TITLE</figcaption></div></div></div></div></div></div><div class="wpb_column pos-top pos-center align_left column_parent col-lg-2 hinged-caption single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont"><div class="uncode-single-media  text-left" id="hinged-1"><div class="single-wrapper" style="max-width: 100%;"><div class="tmb tmb-light  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg"><div class="t-inside"><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="uncode-single-media-wrapper"><img decoding="async" class="wp-image-6074" src="/wp-content/uploads/kiosk-placeholderr.webp" width="1290" height="1170" alt="" srcset="/wp-content/uploads/kiosk-placeholderr.webp 1290w, /wp-content/uploads/kiosk-placeholderr-300x272.webp 300w, /wp-content/uploads/kiosk-placeholderr-1024x929.webp 1024w, /wp-content/uploads/kiosk-placeholderr-768x697.webp 768w, /wp-content/uploads/kiosk-placeholderr-600x544.webp 600w" sizes="(max-width: 1290px) 100vw, 1290px" /></div>
+</div>
+</div></div></div></div><figcaption>TITLE</figcaption></div></div></div></div></div></div><div class="wpb_column pos-top pos-center align_left column_parent col-lg-2 hinged-caption single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont"><div class="uncode-single-media  text-left" id="hinged-1"><div class="single-wrapper" style="max-width: 100%;"><div class="tmb tmb-light  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg"><div class="t-inside"><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="uncode-single-media-wrapper"><img decoding="async" class="wp-image-6074" src="/wp-content/uploads/kiosk-placeholderr.webp" width="1290" height="1170" alt="" srcset="/wp-content/uploads/kiosk-placeholderr.webp 1290w, /wp-content/uploads/kiosk-placeholderr-300x272.webp 300w, /wp-content/uploads/kiosk-placeholderr-1024x929.webp 1024w, /wp-content/uploads/kiosk-placeholderr-768x697.webp 768w, /wp-content/uploads/kiosk-placeholderr-600x544.webp 600w" sizes="(max-width: 1290px) 100vw, 1290px" /></div>
+</div>
+</div></div></div></div><figcaption>TITLE</figcaption></div></div></div></div></div></div><div class="wpb_column pos-top pos-center align_left column_parent col-lg-2 hinged-caption single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont"><div class="uncode-single-media  text-left" id="hinged-1"><div class="single-wrapper" style="max-width: 100%;"><div class="tmb tmb-light  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg"><div class="t-inside"><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="uncode-single-media-wrapper"><img decoding="async" class="wp-image-6074" src="/wp-content/uploads/kiosk-placeholderr.webp" width="1290" height="1170" alt="" srcset="/wp-content/uploads/kiosk-placeholderr.webp 1290w, /wp-content/uploads/kiosk-placeholderr-300x272.webp 300w, /wp-content/uploads/kiosk-placeholderr-1024x929.webp 1024w, /wp-content/uploads/kiosk-placeholderr-768x697.webp 768w, /wp-content/uploads/kiosk-placeholderr-600x544.webp 600w" sizes="(max-width: 1290px) 100vw, 1290px" /></div>
+</div>
+</div></div></div></div><figcaption>TITLE</figcaption></div></div></div></div></div></div><script id="script-hinged-third-tier-1" data-row="script-hinged-third-tier-1" type="text/javascript" class="vc_controls">UNCODE.initRow(document.getElementById("hinged-third-tier-1"));</script></div></div></div><div data-parent="true" class="vc_row row-container" id="hinged-third-tier-2"><div class="row limit-width row-parent"><div class="wpb_row row-inner"><div class="wpb_column pos-top pos-center align_left column_parent col-lg-2 hinged-caption single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont"><div class="uncode-single-media  text-left" id="hinged-1"><div class="single-wrapper" style="max-width: 100%;"><div class="tmb tmb-light  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg"><div class="t-inside"><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="uncode-single-media-wrapper"><img decoding="async" class="wp-image-6074" src="/wp-content/uploads/kiosk-placeholderr.webp" width="1290" height="1170" alt="" srcset="/wp-content/uploads/kiosk-placeholderr.webp 1290w, /wp-content/uploads/kiosk-placeholderr-300x272.webp 300w, /wp-content/uploads/kiosk-placeholderr-1024x929.webp 1024w, /wp-content/uploads/kiosk-placeholderr-768x697.webp 768w, /wp-content/uploads/kiosk-placeholderr-600x544.webp 600w" sizes="(max-width: 1290px) 100vw, 1290px" /></div>
+</div>
+</div></div></div></div><figcaption>TITLE</figcaption></div></div></div></div></div></div><div class="wpb_column pos-top pos-center align_left column_parent col-lg-2 hinged-caption single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont"><div class="uncode-single-media  text-left" id="hinged-1"><div class="single-wrapper" style="max-width: 100%;"><div class="tmb tmb-light  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg"><div class="t-inside"><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="uncode-single-media-wrapper"><img decoding="async" class="wp-image-6074" src="/wp-content/uploads/kiosk-placeholderr.webp" width="1290" height="1170" alt="" srcset="/wp-content/uploads/kiosk-placeholderr.webp 1290w, /wp-content/uploads/kiosk-placeholderr-300x272.webp 300w, /wp-content/uploads/kiosk-placeholderr-1024x929.webp 1024w, /wp-content/uploads/kiosk-placeholderr-768x697.webp 768w, /wp-content/uploads/kiosk-placeholderr-600x544.webp 600w" sizes="(max-width: 1290px) 100vw, 1290px" /></div>
+</div>
+</div></div></div></div><figcaption>TITLE</figcaption></div></div></div></div></div></div><div class="wpb_column pos-top pos-center align_left column_parent col-lg-2 hinged-caption single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont"><div class="uncode-single-media  text-left" id="hinged-1"><div class="single-wrapper" style="max-width: 100%;"><div class="tmb tmb-light  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg"><div class="t-inside"><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="uncode-single-media-wrapper"><img decoding="async" class="wp-image-6074" src="/wp-content/uploads/kiosk-placeholderr.webp" width="1290" height="1170" alt="" srcset="/wp-content/uploads/kiosk-placeholderr.webp 1290w, /wp-content/uploads/kiosk-placeholderr-300x272.webp 300w, /wp-content/uploads/kiosk-placeholderr-1024x929.webp 1024w, /wp-content/uploads/kiosk-placeholderr-768x697.webp 768w, /wp-content/uploads/kiosk-placeholderr-600x544.webp 600w" sizes="(max-width: 1290px) 100vw, 1290px" /></div>
+</div>
+</div></div></div></div><figcaption>TITLE</figcaption></div></div></div></div></div></div><div class="wpb_column pos-top pos-center align_left column_parent col-lg-2 hinged-caption single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont"><div class="uncode-single-media  text-left" id="hinged-1"><div class="single-wrapper" style="max-width: 100%;"><div class="tmb tmb-light  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg"><div class="t-inside"><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="uncode-single-media-wrapper"><img decoding="async" class="wp-image-6074" src="/wp-content/uploads/kiosk-placeholderr.webp" width="1290" height="1170" alt="" srcset="/wp-content/uploads/kiosk-placeholderr.webp 1290w, /wp-content/uploads/kiosk-placeholderr-300x272.webp 300w, /wp-content/uploads/kiosk-placeholderr-1024x929.webp 1024w, /wp-content/uploads/kiosk-placeholderr-768x697.webp 768w, /wp-content/uploads/kiosk-placeholderr-600x544.webp 600w" sizes="(max-width: 1290px) 100vw, 1290px" /></div>
+</div>
+</div></div></div></div><figcaption>TITLE</figcaption></div></div></div></div></div></div><div class="wpb_column pos-top pos-center align_left column_parent col-lg-2 hinged-caption single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont"><div class="uncode-single-media  text-left" id="hinged-1"><div class="single-wrapper" style="max-width: 100%;"><div class="tmb tmb-light  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg"><div class="t-inside"><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="uncode-single-media-wrapper"><img decoding="async" class="wp-image-6074" src="/wp-content/uploads/kiosk-placeholderr.webp" width="1290" height="1170" alt="" srcset="/wp-content/uploads/kiosk-placeholderr.webp 1290w, /wp-content/uploads/kiosk-placeholderr-300x272.webp 300w, /wp-content/uploads/kiosk-placeholderr-1024x929.webp 1024w, /wp-content/uploads/kiosk-placeholderr-768x697.webp 768w, /wp-content/uploads/kiosk-placeholderr-600x544.webp 600w" sizes="(max-width: 1290px) 100vw, 1290px" /></div>
+</div>
+</div></div></div></div><figcaption>TITLE</figcaption></div></div></div></div></div></div><script id="script-hinged-third-tier-2" data-row="script-hinged-third-tier-2" type="text/javascript" class="vc_controls">UNCODE.initRow(document.getElementById("hinged-third-tier-2"));</script></div></div></div><div data-parent="true" class="vc_row row-container" id="hinged-third-tier-3"><div class="row limit-width row-parent"><div class="wpb_row row-inner"><div class="wpb_column pos-top pos-center align_left column_parent col-lg-2 hinged-caption single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont"><div class="uncode-single-media  text-left" id="hinged-1"><div class="single-wrapper" style="max-width: 100%;"><div class="tmb tmb-light  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg"><div class="t-inside"><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="uncode-single-media-wrapper"><img decoding="async" class="wp-image-6074" src="/wp-content/uploads/kiosk-placeholderr.webp" width="1290" height="1170" alt="" srcset="/wp-content/uploads/kiosk-placeholderr.webp 1290w, /wp-content/uploads/kiosk-placeholderr-300x272.webp 300w, /wp-content/uploads/kiosk-placeholderr-1024x929.webp 1024w, /wp-content/uploads/kiosk-placeholderr-768x697.webp 768w, /wp-content/uploads/kiosk-placeholderr-600x544.webp 600w" sizes="(max-width: 1290px) 100vw, 1290px" /></div>
+</div>
+</div></div></div></div><figcaption>TITLE</figcaption></div></div></div></div></div></div><div class="wpb_column pos-top pos-center align_left column_parent col-lg-2 hinged-caption single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont"><div class="uncode-single-media  text-left" id="hinged-1"><div class="single-wrapper" style="max-width: 100%;"><div class="tmb tmb-light  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg"><div class="t-inside"><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="uncode-single-media-wrapper"><img decoding="async" class="wp-image-6074" src="/wp-content/uploads/kiosk-placeholderr.webp" width="1290" height="1170" alt="" srcset="/wp-content/uploads/kiosk-placeholderr.webp 1290w, /wp-content/uploads/kiosk-placeholderr-300x272.webp 300w, /wp-content/uploads/kiosk-placeholderr-1024x929.webp 1024w, /wp-content/uploads/kiosk-placeholderr-768x697.webp 768w, /wp-content/uploads/kiosk-placeholderr-600x544.webp 600w" sizes="(max-width: 1290px) 100vw, 1290px" /></div>
+</div>
+</div></div></div></div><figcaption>TITLE</figcaption></div></div></div></div></div></div><div class="wpb_column pos-top pos-center align_left column_parent col-lg-2 hinged-caption single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont"><div class="uncode-single-media  text-left" id="hinged-1"><div class="single-wrapper" style="max-width: 100%;"><div class="tmb tmb-light  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg"><div class="t-inside"><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="uncode-single-media-wrapper"><img decoding="async" class="wp-image-6074" src="/wp-content/uploads/kiosk-placeholderr.webp" width="1290" height="1170" alt="" srcset="/wp-content/uploads/kiosk-placeholderr.webp 1290w, /wp-content/uploads/kiosk-placeholderr-300x272.webp 300w, /wp-content/uploads/kiosk-placeholderr-1024x929.webp 1024w, /wp-content/uploads/kiosk-placeholderr-768x697.webp 768w, /wp-content/uploads/kiosk-placeholderr-600x544.webp 600w" sizes="(max-width: 1290px) 100vw, 1290px" /></div>
+</div>
+</div></div></div></div><figcaption>TITLE</figcaption></div></div></div></div></div></div><div class="wpb_column pos-top pos-center align_left column_parent col-lg-2 hinged-caption single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont"><div class="uncode-single-media  text-left" id="hinged-1"><div class="single-wrapper" style="max-width: 100%;"><div class="tmb tmb-light  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg"><div class="t-inside"><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="uncode-single-media-wrapper"><img decoding="async" class="wp-image-6074" src="/wp-content/uploads/kiosk-placeholderr.webp" width="1290" height="1170" alt="" srcset="/wp-content/uploads/kiosk-placeholderr.webp 1290w, /wp-content/uploads/kiosk-placeholderr-300x272.webp 300w, /wp-content/uploads/kiosk-placeholderr-1024x929.webp 1024w, /wp-content/uploads/kiosk-placeholderr-768x697.webp 768w, /wp-content/uploads/kiosk-placeholderr-600x544.webp 600w" sizes="(max-width: 1290px) 100vw, 1290px" /></div>
+</div>
+</div></div></div></div><figcaption>TITLE</figcaption></div></div></div></div></div></div><div class="wpb_column pos-top pos-center align_left column_parent col-lg-2 hinged-caption single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont"><div class="uncode-single-media  text-left" id="hinged-1"><div class="single-wrapper" style="max-width: 100%;"><div class="tmb tmb-light  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg"><div class="t-inside"><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="uncode-single-media-wrapper"><img decoding="async" class="wp-image-6074" src="/wp-content/uploads/kiosk-placeholderr.webp" width="1290" height="1170" alt="" srcset="/wp-content/uploads/kiosk-placeholderr.webp 1290w, /wp-content/uploads/kiosk-placeholderr-300x272.webp 300w, /wp-content/uploads/kiosk-placeholderr-1024x929.webp 1024w, /wp-content/uploads/kiosk-placeholderr-768x697.webp 768w, /wp-content/uploads/kiosk-placeholderr-600x544.webp 600w" sizes="(max-width: 1290px) 100vw, 1290px" /></div>
+</div>
+</div></div></div></div><figcaption>TITLE</figcaption></div></div></div></div></div></div><script id="script-hinged-third-tier-3" data-row="script-hinged-third-tier-3" type="text/javascript" class="vc_controls">UNCODE.initRow(document.getElementById("hinged-third-tier-3"));</script></div></div></div><div data-parent="true" class="vc_row row-container" id="digital-second-tier"><div class="row limit-width row-parent"><div class="wpb_row row-inner"><div class="wpb_column pos-top pos-center align_left column_parent col-lg-4 digital-caption single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont"><div class="uncode-single-media  text-left" id="digital-1"><div class="single-wrapper" style="max-width: 100%;"><div class="tmb tmb-light  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg"><div class="t-inside"><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="uncode-single-media-wrapper"><img decoding="async" class="wp-image-6074" src="/wp-content/uploads/kiosk-placeholderr.webp" width="1290" height="1170" alt="" srcset="/wp-content/uploads/kiosk-placeholderr.webp 1290w, /wp-content/uploads/kiosk-placeholderr-300x272.webp 300w, /wp-content/uploads/kiosk-placeholderr-1024x929.webp 1024w, /wp-content/uploads/kiosk-placeholderr-768x697.webp 768w, /wp-content/uploads/kiosk-placeholderr-600x544.webp 600w" sizes="(max-width: 1290px) 100vw, 1290px" /></div>
+</div>
+</div></div></div></div><figcaption>TITLE</figcaption></div></div></div></div></div></div><div class="wpb_column pos-top pos-center align_left column_parent col-lg-4 digital-caption single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont"><div class="uncode-single-media  text-left" id="digital-2"><div class="single-wrapper" style="max-width: 100%;"><div class="tmb tmb-light  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg"><div class="t-inside"><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="uncode-single-media-wrapper"><img decoding="async" class="wp-image-6074" src="/wp-content/uploads/kiosk-placeholderr.webp" width="1290" height="1170" alt="" srcset="/wp-content/uploads/kiosk-placeholderr.webp 1290w, /wp-content/uploads/kiosk-placeholderr-300x272.webp 300w, /wp-content/uploads/kiosk-placeholderr-1024x929.webp 1024w, /wp-content/uploads/kiosk-placeholderr-768x697.webp 768w, /wp-content/uploads/kiosk-placeholderr-600x544.webp 600w" sizes="(max-width: 1290px) 100vw, 1290px" /></div>
+</div>
+</div></div></div></div><figcaption>TITLE</figcaption></div></div></div></div></div></div><div class="wpb_column pos-top pos-center align_left column_parent col-lg-4 digital-caption single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont"><div class="uncode-single-media  text-left" id="digital-3"><div class="single-wrapper" style="max-width: 100%;"><div class="tmb tmb-light  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg"><div class="t-inside"><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="uncode-single-media-wrapper"><img decoding="async" class="wp-image-6074" src="/wp-content/uploads/kiosk-placeholderr.webp" width="1290" height="1170" alt="" srcset="/wp-content/uploads/kiosk-placeholderr.webp 1290w, /wp-content/uploads/kiosk-placeholderr-300x272.webp 300w, /wp-content/uploads/kiosk-placeholderr-1024x929.webp 1024w, /wp-content/uploads/kiosk-placeholderr-768x697.webp 768w, /wp-content/uploads/kiosk-placeholderr-600x544.webp 600w" sizes="(max-width: 1290px) 100vw, 1290px" /></div>
+</div>
+</div></div></div></div><figcaption>TITLE</figcaption></div></div></div></div></div></div><script id="script-digital-second-tier" data-row="script-digital-second-tier" type="text/javascript" class="vc_controls">UNCODE.initRow(document.getElementById("digital-second-tier"));</script></div></div></div><div data-parent="true" class="vc_row row-container" id="select-finish-digital"><div class="row single-top-padding no-bottom-padding single-h-padding limit-width row-parent"><div class="wpb_row row-inner"><div class="wpb_column pos-top pos-center align_center column_parent col-lg-12 single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont"><div class="vc_custom_heading_wrap "><div class="heading-text el-text" ><h3 class="h3 text-uppercase" ><span>Select your finish</span></h3></div><div class="clear"></div></div></div></div></div></div></div><script id="script-select-finish-digital" data-row="script-select-finish-digital" type="text/javascript" class="vc_controls">UNCODE.initRow(document.getElementById("select-finish-digital"));</script></div></div></div><div data-parent="true" class="vc_row row-container" id="digital-third-tier-1"><div class="row limit-width row-parent"><div class="wpb_row row-inner"><div class="wpb_column pos-top pos-center align_left column_parent col-lg-2 digital-caption single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont"><div class="uncode-single-media  text-left"><div class="single-wrapper" style="max-width: 100%;"><div class="tmb tmb-light  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg"><div class="t-inside"><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="uncode-single-media-wrapper"><img decoding="async" class="wp-image-6074" src="/wp-content/uploads/kiosk-placeholderr.webp" width="1290" height="1170" alt="" srcset="/wp-content/uploads/kiosk-placeholderr.webp 1290w, /wp-content/uploads/kiosk-placeholderr-300x272.webp 300w, /wp-content/uploads/kiosk-placeholderr-1024x929.webp 1024w, /wp-content/uploads/kiosk-placeholderr-768x697.webp 768w, /wp-content/uploads/kiosk-placeholderr-600x544.webp 600w" sizes="(max-width: 1290px) 100vw, 1290px" /></div>
+</div>
+</div></div></div></div><figcaption>TITLE</figcaption></div></div></div></div></div></div><div class="wpb_column pos-top pos-center align_left column_parent col-lg-2 digital-caption single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont"><div class="uncode-single-media  text-left"><div class="single-wrapper" style="max-width: 100%;"><div class="tmb tmb-light  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg"><div class="t-inside"><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="uncode-single-media-wrapper"><img decoding="async" class="wp-image-6074" src="/wp-content/uploads/kiosk-placeholderr.webp" width="1290" height="1170" alt="" srcset="/wp-content/uploads/kiosk-placeholderr.webp 1290w, /wp-content/uploads/kiosk-placeholderr-300x272.webp 300w, /wp-content/uploads/kiosk-placeholderr-1024x929.webp 1024w, /wp-content/uploads/kiosk-placeholderr-768x697.webp 768w, /wp-content/uploads/kiosk-placeholderr-600x544.webp 600w" sizes="(max-width: 1290px) 100vw, 1290px" /></div>
+</div>
+</div></div></div></div><figcaption>TITLE</figcaption></div></div></div></div></div></div><div class="wpb_column pos-top pos-center align_left column_parent col-lg-2 digital-caption single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont"><div class="uncode-single-media  text-left"><div class="single-wrapper" style="max-width: 100%;"><div class="tmb tmb-light  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg"><div class="t-inside"><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="uncode-single-media-wrapper"><img decoding="async" class="wp-image-6074" src="/wp-content/uploads/kiosk-placeholderr.webp" width="1290" height="1170" alt="" srcset="/wp-content/uploads/kiosk-placeholderr.webp 1290w, /wp-content/uploads/kiosk-placeholderr-300x272.webp 300w, /wp-content/uploads/kiosk-placeholderr-1024x929.webp 1024w, /wp-content/uploads/kiosk-placeholderr-768x697.webp 768w, /wp-content/uploads/kiosk-placeholderr-600x544.webp 600w" sizes="(max-width: 1290px) 100vw, 1290px" /></div>
+</div>
+</div></div></div></div><figcaption>TITLE</figcaption></div></div></div></div></div></div><div class="wpb_column pos-top pos-center align_left column_parent col-lg-2 digital-caption single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont"><div class="uncode-single-media  text-left"><div class="single-wrapper" style="max-width: 100%;"><div class="tmb tmb-light  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg"><div class="t-inside"><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="uncode-single-media-wrapper"><img decoding="async" class="wp-image-6074" src="/wp-content/uploads/kiosk-placeholderr.webp" width="1290" height="1170" alt="" srcset="/wp-content/uploads/kiosk-placeholderr.webp 1290w, /wp-content/uploads/kiosk-placeholderr-300x272.webp 300w, /wp-content/uploads/kiosk-placeholderr-1024x929.webp 1024w, /wp-content/uploads/kiosk-placeholderr-768x697.webp 768w, /wp-content/uploads/kiosk-placeholderr-600x544.webp 600w" sizes="(max-width: 1290px) 100vw, 1290px" /></div>
+</div>
+</div></div></div></div><figcaption>TITLE</figcaption></div></div></div></div></div></div><div class="wpb_column pos-top pos-center align_left column_parent col-lg-2 digital-caption single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont"><div class="uncode-single-media  text-left"><div class="single-wrapper" style="max-width: 100%;"><div class="tmb tmb-light  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg"><div class="t-inside"><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="uncode-single-media-wrapper"><img decoding="async" class="wp-image-6074" src="/wp-content/uploads/kiosk-placeholderr.webp" width="1290" height="1170" alt="" srcset="/wp-content/uploads/kiosk-placeholderr.webp 1290w, /wp-content/uploads/kiosk-placeholderr-300x272.webp 300w, /wp-content/uploads/kiosk-placeholderr-1024x929.webp 1024w, /wp-content/uploads/kiosk-placeholderr-768x697.webp 768w, /wp-content/uploads/kiosk-placeholderr-600x544.webp 600w" sizes="(max-width: 1290px) 100vw, 1290px" /></div>
+</div>
+</div></div></div></div><figcaption>TITLE</figcaption></div></div></div></div></div></div><script id="script-digital-third-tier-1" data-row="script-digital-third-tier-1" type="text/javascript" class="vc_controls">UNCODE.initRow(document.getElementById("digital-third-tier-1"));</script></div></div></div><div data-parent="true" class="vc_row row-container" id="digital-third-tier-2"><div class="row limit-width row-parent"><div class="wpb_row row-inner"><div class="wpb_column pos-top pos-center align_left column_parent col-lg-2 digital-caption single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont"><div class="uncode-single-media  text-left"><div class="single-wrapper" style="max-width: 100%;"><div class="tmb tmb-light  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg"><div class="t-inside"><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="uncode-single-media-wrapper"><img decoding="async" class="wp-image-6074" src="/wp-content/uploads/kiosk-placeholderr.webp" width="1290" height="1170" alt="" srcset="/wp-content/uploads/kiosk-placeholderr.webp 1290w, /wp-content/uploads/kiosk-placeholderr-300x272.webp 300w, /wp-content/uploads/kiosk-placeholderr-1024x929.webp 1024w, /wp-content/uploads/kiosk-placeholderr-768x697.webp 768w, /wp-content/uploads/kiosk-placeholderr-600x544.webp 600w" sizes="(max-width: 1290px) 100vw, 1290px" /></div>
+</div>
+</div></div></div></div><figcaption>TITLE</figcaption></div></div></div></div></div></div><div class="wpb_column pos-top pos-center align_left column_parent col-lg-2 digital-caption single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont"><div class="uncode-single-media  text-left"><div class="single-wrapper" style="max-width: 100%;"><div class="tmb tmb-light  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg"><div class="t-inside"><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="uncode-single-media-wrapper"><img decoding="async" class="wp-image-6074" src="/wp-content/uploads/kiosk-placeholderr.webp" width="1290" height="1170" alt="" srcset="/wp-content/uploads/kiosk-placeholderr.webp 1290w, /wp-content/uploads/kiosk-placeholderr-300x272.webp 300w, /wp-content/uploads/kiosk-placeholderr-1024x929.webp 1024w, /wp-content/uploads/kiosk-placeholderr-768x697.webp 768w, /wp-content/uploads/kiosk-placeholderr-600x544.webp 600w" sizes="(max-width: 1290px) 100vw, 1290px" /></div>
+</div>
+</div></div></div></div><figcaption>TITLE</figcaption></div></div></div></div></div></div><div class="wpb_column pos-top pos-center align_left column_parent col-lg-2 digital-caption single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont"><div class="uncode-single-media  text-left"><div class="single-wrapper" style="max-width: 100%;"><div class="tmb tmb-light  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg"><div class="t-inside"><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="uncode-single-media-wrapper"><img decoding="async" class="wp-image-6074" src="/wp-content/uploads/kiosk-placeholderr.webp" width="1290" height="1170" alt="" srcset="/wp-content/uploads/kiosk-placeholderr.webp 1290w, /wp-content/uploads/kiosk-placeholderr-300x272.webp 300w, /wp-content/uploads/kiosk-placeholderr-1024x929.webp 1024w, /wp-content/uploads/kiosk-placeholderr-768x697.webp 768w, /wp-content/uploads/kiosk-placeholderr-600x544.webp 600w" sizes="(max-width: 1290px) 100vw, 1290px" /></div>
+</div>
+</div></div></div></div><figcaption>TITLE</figcaption></div></div></div></div></div></div><div class="wpb_column pos-top pos-center align_left column_parent col-lg-2 digital-caption single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont"><div class="uncode-single-media  text-left"><div class="single-wrapper" style="max-width: 100%;"><div class="tmb tmb-light  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg"><div class="t-inside"><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="uncode-single-media-wrapper"><img decoding="async" class="wp-image-6074" src="/wp-content/uploads/kiosk-placeholderr.webp" width="1290" height="1170" alt="" srcset="/wp-content/uploads/kiosk-placeholderr.webp 1290w, /wp-content/uploads/kiosk-placeholderr-300x272.webp 300w, /wp-content/uploads/kiosk-placeholderr-1024x929.webp 1024w, /wp-content/uploads/kiosk-placeholderr-768x697.webp 768w, /wp-content/uploads/kiosk-placeholderr-600x544.webp 600w" sizes="(max-width: 1290px) 100vw, 1290px" /></div>
+</div>
+</div></div></div></div><figcaption>TITLE</figcaption></div></div></div></div></div></div><div class="wpb_column pos-top pos-center align_left column_parent col-lg-2 digital-caption single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont"><div class="uncode-single-media  text-left"><div class="single-wrapper" style="max-width: 100%;"><div class="tmb tmb-light  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg"><div class="t-inside"><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="uncode-single-media-wrapper"><img decoding="async" class="wp-image-6074" src="/wp-content/uploads/kiosk-placeholderr.webp" width="1290" height="1170" alt="" srcset="/wp-content/uploads/kiosk-placeholderr.webp 1290w, /wp-content/uploads/kiosk-placeholderr-300x272.webp 300w, /wp-content/uploads/kiosk-placeholderr-1024x929.webp 1024w, /wp-content/uploads/kiosk-placeholderr-768x697.webp 768w, /wp-content/uploads/kiosk-placeholderr-600x544.webp 600w" sizes="(max-width: 1290px) 100vw, 1290px" /></div>
+</div>
+</div></div></div></div><figcaption>TITLE</figcaption></div></div></div></div></div></div><script id="script-digital-third-tier-2" data-row="script-digital-third-tier-2" type="text/javascript" class="vc_controls">UNCODE.initRow(document.getElementById("digital-third-tier-2"));</script></div></div></div><div data-parent="true" class="vc_row row-container" id="digital-third-tier-3"><div class="row limit-width row-parent"><div class="wpb_row row-inner"><div class="wpb_column pos-top pos-center align_left column_parent col-lg-2 digital-caption single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont"><div class="uncode-single-media  text-left"><div class="single-wrapper" style="max-width: 100%;"><div class="tmb tmb-light  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg"><div class="t-inside"><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="uncode-single-media-wrapper"><img decoding="async" class="wp-image-6074" src="/wp-content/uploads/kiosk-placeholderr.webp" width="1290" height="1170" alt="" srcset="/wp-content/uploads/kiosk-placeholderr.webp 1290w, /wp-content/uploads/kiosk-placeholderr-300x272.webp 300w, /wp-content/uploads/kiosk-placeholderr-1024x929.webp 1024w, /wp-content/uploads/kiosk-placeholderr-768x697.webp 768w, /wp-content/uploads/kiosk-placeholderr-600x544.webp 600w" sizes="(max-width: 1290px) 100vw, 1290px" /></div>
+</div>
+</div></div></div></div><figcaption>TITLE</figcaption></div></div></div></div></div></div><div class="wpb_column pos-top pos-center align_left column_parent col-lg-2 digital-caption single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont"><div class="uncode-single-media  text-left"><div class="single-wrapper" style="max-width: 100%;"><div class="tmb tmb-light  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg"><div class="t-inside"><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="uncode-single-media-wrapper"><img decoding="async" class="wp-image-6074" src="/wp-content/uploads/kiosk-placeholderr.webp" width="1290" height="1170" alt="" srcset="/wp-content/uploads/kiosk-placeholderr.webp 1290w, /wp-content/uploads/kiosk-placeholderr-300x272.webp 300w, /wp-content/uploads/kiosk-placeholderr-1024x929.webp 1024w, /wp-content/uploads/kiosk-placeholderr-768x697.webp 768w, /wp-content/uploads/kiosk-placeholderr-600x544.webp 600w" sizes="(max-width: 1290px) 100vw, 1290px" /></div>
+</div>
+</div></div></div></div><figcaption>TITLE</figcaption></div></div></div></div></div></div><div class="wpb_column pos-top pos-center align_left column_parent col-lg-2 digital-caption single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont"><div class="uncode-single-media  text-left"><div class="single-wrapper" style="max-width: 100%;"><div class="tmb tmb-light  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg"><div class="t-inside"><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="uncode-single-media-wrapper"><img decoding="async" class="wp-image-6074" src="/wp-content/uploads/kiosk-placeholderr.webp" width="1290" height="1170" alt="" srcset="/wp-content/uploads/kiosk-placeholderr.webp 1290w, /wp-content/uploads/kiosk-placeholderr-300x272.webp 300w, /wp-content/uploads/kiosk-placeholderr-1024x929.webp 1024w, /wp-content/uploads/kiosk-placeholderr-768x697.webp 768w, /wp-content/uploads/kiosk-placeholderr-600x544.webp 600w" sizes="(max-width: 1290px) 100vw, 1290px" /></div>
+</div>
+</div></div></div></div><figcaption>TITLE</figcaption></div></div></div></div></div></div><div class="wpb_column pos-top pos-center align_left column_parent col-lg-2 digital-caption single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont"><div class="uncode-single-media  text-left"><div class="single-wrapper" style="max-width: 100%;"><div class="tmb tmb-light  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg"><div class="t-inside"><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="uncode-single-media-wrapper"><img decoding="async" class="wp-image-6074" src="/wp-content/uploads/kiosk-placeholderr.webp" width="1290" height="1170" alt="" srcset="/wp-content/uploads/kiosk-placeholderr.webp 1290w, /wp-content/uploads/kiosk-placeholderr-300x272.webp 300w, /wp-content/uploads/kiosk-placeholderr-1024x929.webp 1024w, /wp-content/uploads/kiosk-placeholderr-768x697.webp 768w, /wp-content/uploads/kiosk-placeholderr-600x544.webp 600w" sizes="(max-width: 1290px) 100vw, 1290px" /></div>
+</div>
+</div></div></div></div><figcaption>TITLE</figcaption></div></div></div></div></div></div><div class="wpb_column pos-top pos-center align_left column_parent col-lg-2 digital-caption single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont"><div class="uncode-single-media  text-left"><div class="single-wrapper" style="max-width: 100%;"><div class="tmb tmb-light  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg"><div class="t-inside"><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="uncode-single-media-wrapper"><img decoding="async" class="wp-image-6074" src="/wp-content/uploads/kiosk-placeholderr.webp" width="1290" height="1170" alt="" srcset="/wp-content/uploads/kiosk-placeholderr.webp 1290w, /wp-content/uploads/kiosk-placeholderr-300x272.webp 300w, /wp-content/uploads/kiosk-placeholderr-1024x929.webp 1024w, /wp-content/uploads/kiosk-placeholderr-768x697.webp 768w, /wp-content/uploads/kiosk-placeholderr-600x544.webp 600w" sizes="(max-width: 1290px) 100vw, 1290px" /></div>
+</div>
+</div></div></div></div><figcaption>TITLE</figcaption></div></div></div></div></div></div><script id="script-digital-third-tier-3" data-row="script-digital-third-tier-3" type="text/javascript" class="vc_controls">UNCODE.initRow(document.getElementById("digital-third-tier-3"));</script></div></div></div><div data-parent="true" class="vc_row row-container" id="sliding-second-tier"><div class="row limit-width row-parent"><div class="wpb_row row-inner"><div class="wpb_column pos-top pos-center align_left column_parent col-lg-4 sliding-caption single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont"><div class="uncode-single-media  text-left" id="sliding-1"><div class="single-wrapper" style="max-width: 100%;"><div class="tmb tmb-light  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg"><div class="t-inside"><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="uncode-single-media-wrapper"><img decoding="async" class="wp-image-6074" src="/wp-content/uploads/kiosk-placeholderr.webp" width="1290" height="1170" alt="" srcset="/wp-content/uploads/kiosk-placeholderr.webp 1290w, /wp-content/uploads/kiosk-placeholderr-300x272.webp 300w, /wp-content/uploads/kiosk-placeholderr-1024x929.webp 1024w, /wp-content/uploads/kiosk-placeholderr-768x697.webp 768w, /wp-content/uploads/kiosk-placeholderr-600x544.webp 600w" sizes="(max-width: 1290px) 100vw, 1290px" /></div>
+</div>
+</div></div></div></div><figcaption>TITLE</figcaption></div></div></div></div></div></div><div class="wpb_column pos-top pos-center align_left column_parent col-lg-4 sliding-caption single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont"><div class="uncode-single-media  text-left" id="sliding-2"><div class="single-wrapper" style="max-width: 100%;"><div class="tmb tmb-light  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg"><div class="t-inside"><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="uncode-single-media-wrapper"><img decoding="async" class="wp-image-6074" src="/wp-content/uploads/kiosk-placeholderr.webp" width="1290" height="1170" alt="" srcset="/wp-content/uploads/kiosk-placeholderr.webp 1290w, /wp-content/uploads/kiosk-placeholderr-300x272.webp 300w, /wp-content/uploads/kiosk-placeholderr-1024x929.webp 1024w, /wp-content/uploads/kiosk-placeholderr-768x697.webp 768w, /wp-content/uploads/kiosk-placeholderr-600x544.webp 600w" sizes="(max-width: 1290px) 100vw, 1290px" /></div>
+</div>
+</div></div></div></div><figcaption>TITLE</figcaption></div></div></div></div></div></div><div class="wpb_column pos-top pos-center align_left column_parent col-lg-4 sliding-caption single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont"><div class="uncode-single-media  text-left" id="sliding-3"><div class="single-wrapper" style="max-width: 100%;"><div class="tmb tmb-light  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg"><div class="t-inside"><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="uncode-single-media-wrapper"><img decoding="async" class="wp-image-6074" src="/wp-content/uploads/kiosk-placeholderr.webp" width="1290" height="1170" alt="" srcset="/wp-content/uploads/kiosk-placeholderr.webp 1290w, /wp-content/uploads/kiosk-placeholderr-300x272.webp 300w, /wp-content/uploads/kiosk-placeholderr-1024x929.webp 1024w, /wp-content/uploads/kiosk-placeholderr-768x697.webp 768w, /wp-content/uploads/kiosk-placeholderr-600x544.webp 600w" sizes="(max-width: 1290px) 100vw, 1290px" /></div>
+</div>
+</div></div></div></div><figcaption>TITLE</figcaption></div></div></div></div></div></div><script id="script-sliding-second-tier" data-row="script-sliding-second-tier" type="text/javascript" class="vc_controls">UNCODE.initRow(document.getElementById("sliding-second-tier"));</script></div></div></div><div data-parent="true" class="vc_row row-container" id="select-finish-sliding"><div class="row single-top-padding no-bottom-padding single-h-padding limit-width row-parent"><div class="wpb_row row-inner"><div class="wpb_column pos-top pos-center align_center column_parent col-lg-12 single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont"><div class="vc_custom_heading_wrap "><div class="heading-text el-text" ><h3 class="h3 text-uppercase" ><span>Select your finish</span></h3></div><div class="clear"></div></div></div></div></div></div></div><script id="script-select-finish-sliding" data-row="script-select-finish-sliding" type="text/javascript" class="vc_controls">UNCODE.initRow(document.getElementById("select-finish-sliding"));</script></div></div></div><div data-parent="true" class="vc_row row-container" id="sliding-third-tier-1"><div class="row limit-width row-parent"><div class="wpb_row row-inner"><div class="wpb_column pos-top pos-center align_left column_parent col-lg-2 sliding-caption single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont"><div class="uncode-single-media  text-left"><div class="single-wrapper" style="max-width: 100%;"><div class="tmb tmb-light  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg"><div class="t-inside"><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="uncode-single-media-wrapper"><img decoding="async" class="wp-image-6074" src="/wp-content/uploads/kiosk-placeholderr.webp" width="1290" height="1170" alt="" srcset="/wp-content/uploads/kiosk-placeholderr.webp 1290w, /wp-content/uploads/kiosk-placeholderr-300x272.webp 300w, /wp-content/uploads/kiosk-placeholderr-1024x929.webp 1024w, /wp-content/uploads/kiosk-placeholderr-768x697.webp 768w, /wp-content/uploads/kiosk-placeholderr-600x544.webp 600w" sizes="(max-width: 1290px) 100vw, 1290px" /></div>
+</div>
+</div></div></div></div><figcaption>TITLE</figcaption></div></div></div></div></div></div><div class="wpb_column pos-top pos-center align_left column_parent col-lg-2 sliding-caption single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont"><div class="uncode-single-media  text-left"><div class="single-wrapper" style="max-width: 100%;"><div class="tmb tmb-light  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg"><div class="t-inside"><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="uncode-single-media-wrapper"><img decoding="async" class="wp-image-6074" src="/wp-content/uploads/kiosk-placeholderr.webp" width="1290" height="1170" alt="" srcset="/wp-content/uploads/kiosk-placeholderr.webp 1290w, /wp-content/uploads/kiosk-placeholderr-300x272.webp 300w, /wp-content/uploads/kiosk-placeholderr-1024x929.webp 1024w, /wp-content/uploads/kiosk-placeholderr-768x697.webp 768w, /wp-content/uploads/kiosk-placeholderr-600x544.webp 600w" sizes="(max-width: 1290px) 100vw, 1290px" /></div>
+</div>
+</div></div></div></div><figcaption>TITLE</figcaption></div></div></div></div></div></div><div class="wpb_column pos-top pos-center align_left column_parent col-lg-2 sliding-caption single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont"><div class="uncode-single-media  text-left"><div class="single-wrapper" style="max-width: 100%;"><div class="tmb tmb-light  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg"><div class="t-inside"><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="uncode-single-media-wrapper"><img decoding="async" class="wp-image-6074" src="/wp-content/uploads/kiosk-placeholderr.webp" width="1290" height="1170" alt="" srcset="/wp-content/uploads/kiosk-placeholderr.webp 1290w, /wp-content/uploads/kiosk-placeholderr-300x272.webp 300w, /wp-content/uploads/kiosk-placeholderr-1024x929.webp 1024w, /wp-content/uploads/kiosk-placeholderr-768x697.webp 768w, /wp-content/uploads/kiosk-placeholderr-600x544.webp 600w" sizes="(max-width: 1290px) 100vw, 1290px" /></div>
+</div>
+</div></div></div></div><figcaption>TITLE</figcaption></div></div></div></div></div></div><div class="wpb_column pos-top pos-center align_left column_parent col-lg-2 sliding-caption single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont"><div class="uncode-single-media  text-left"><div class="single-wrapper" style="max-width: 100%;"><div class="tmb tmb-light  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg"><div class="t-inside"><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="uncode-single-media-wrapper"><img decoding="async" class="wp-image-6074" src="/wp-content/uploads/kiosk-placeholderr.webp" width="1290" height="1170" alt="" srcset="/wp-content/uploads/kiosk-placeholderr.webp 1290w, /wp-content/uploads/kiosk-placeholderr-300x272.webp 300w, /wp-content/uploads/kiosk-placeholderr-1024x929.webp 1024w, /wp-content/uploads/kiosk-placeholderr-768x697.webp 768w, /wp-content/uploads/kiosk-placeholderr-600x544.webp 600w" sizes="(max-width: 1290px) 100vw, 1290px" /></div>
+</div>
+</div></div></div></div><figcaption>TITLE</figcaption></div></div></div></div></div></div><div class="wpb_column pos-top pos-center align_left column_parent col-lg-2 sliding-caption single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont"><div class="uncode-single-media  text-left"><div class="single-wrapper" style="max-width: 100%;"><div class="tmb tmb-light  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg"><div class="t-inside"><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="uncode-single-media-wrapper"><img decoding="async" class="wp-image-6074" src="/wp-content/uploads/kiosk-placeholderr.webp" width="1290" height="1170" alt="" srcset="/wp-content/uploads/kiosk-placeholderr.webp 1290w, /wp-content/uploads/kiosk-placeholderr-300x272.webp 300w, /wp-content/uploads/kiosk-placeholderr-1024x929.webp 1024w, /wp-content/uploads/kiosk-placeholderr-768x697.webp 768w, /wp-content/uploads/kiosk-placeholderr-600x544.webp 600w" sizes="(max-width: 1290px) 100vw, 1290px" /></div>
+</div>
+</div></div></div></div><figcaption>TITLE</figcaption></div></div></div></div></div></div><script id="script-sliding-third-tier-1" data-row="script-sliding-third-tier-1" type="text/javascript" class="vc_controls">UNCODE.initRow(document.getElementById("sliding-third-tier-1"));</script></div></div></div><div data-parent="true" class="vc_row row-container" id="sliding-third-tier-2"><div class="row limit-width row-parent"><div class="wpb_row row-inner"><div class="wpb_column pos-top pos-center align_left column_parent col-lg-2 sliding-caption single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont"><div class="uncode-single-media  text-left"><div class="single-wrapper" style="max-width: 100%;"><div class="tmb tmb-light  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg"><div class="t-inside"><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="uncode-single-media-wrapper"><img decoding="async" class="wp-image-6074" src="/wp-content/uploads/kiosk-placeholderr.webp" width="1290" height="1170" alt="" srcset="/wp-content/uploads/kiosk-placeholderr.webp 1290w, /wp-content/uploads/kiosk-placeholderr-300x272.webp 300w, /wp-content/uploads/kiosk-placeholderr-1024x929.webp 1024w, /wp-content/uploads/kiosk-placeholderr-768x697.webp 768w, /wp-content/uploads/kiosk-placeholderr-600x544.webp 600w" sizes="(max-width: 1290px) 100vw, 1290px" /></div>
+</div>
+</div></div></div></div><figcaption>TITLE</figcaption></div></div></div></div></div></div><div class="wpb_column pos-top pos-center align_left column_parent col-lg-2 sliding-caption single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont"><div class="uncode-single-media  text-left"><div class="single-wrapper" style="max-width: 100%;"><div class="tmb tmb-light  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg"><div class="t-inside"><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="uncode-single-media-wrapper"><img decoding="async" class="wp-image-6074" src="/wp-content/uploads/kiosk-placeholderr.webp" width="1290" height="1170" alt="" srcset="/wp-content/uploads/kiosk-placeholderr.webp 1290w, /wp-content/uploads/kiosk-placeholderr-300x272.webp 300w, /wp-content/uploads/kiosk-placeholderr-1024x929.webp 1024w, /wp-content/uploads/kiosk-placeholderr-768x697.webp 768w, /wp-content/uploads/kiosk-placeholderr-600x544.webp 600w" sizes="(max-width: 1290px) 100vw, 1290px" /></div>
+</div>
+</div></div></div></div><figcaption>TITLE</figcaption></div></div></div></div></div></div><div class="wpb_column pos-top pos-center align_left column_parent col-lg-2 sliding-caption single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont"><div class="uncode-single-media  text-left"><div class="single-wrapper" style="max-width: 100%;"><div class="tmb tmb-light  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg"><div class="t-inside"><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="uncode-single-media-wrapper"><img decoding="async" class="wp-image-6074" src="/wp-content/uploads/kiosk-placeholderr.webp" width="1290" height="1170" alt="" srcset="/wp-content/uploads/kiosk-placeholderr.webp 1290w, /wp-content/uploads/kiosk-placeholderr-300x272.webp 300w, /wp-content/uploads/kiosk-placeholderr-1024x929.webp 1024w, /wp-content/uploads/kiosk-placeholderr-768x697.webp 768w, /wp-content/uploads/kiosk-placeholderr-600x544.webp 600w" sizes="(max-width: 1290px) 100vw, 1290px" /></div>
+</div>
+</div></div></div></div><figcaption>TITLE</figcaption></div></div></div></div></div></div><div class="wpb_column pos-top pos-center align_left column_parent col-lg-2 sliding-caption single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont"><div class="uncode-single-media  text-left"><div class="single-wrapper" style="max-width: 100%;"><div class="tmb tmb-light  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg"><div class="t-inside"><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="uncode-single-media-wrapper"><img decoding="async" class="wp-image-6074" src="/wp-content/uploads/kiosk-placeholderr.webp" width="1290" height="1170" alt="" srcset="/wp-content/uploads/kiosk-placeholderr.webp 1290w, /wp-content/uploads/kiosk-placeholderr-300x272.webp 300w, /wp-content/uploads/kiosk-placeholderr-1024x929.webp 1024w, /wp-content/uploads/kiosk-placeholderr-768x697.webp 768w, /wp-content/uploads/kiosk-placeholderr-600x544.webp 600w" sizes="(max-width: 1290px) 100vw, 1290px" /></div>
+</div>
+</div></div></div></div><figcaption>TITLE</figcaption></div></div></div></div></div></div><div class="wpb_column pos-top pos-center align_left column_parent col-lg-2 sliding-caption single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont"><div class="uncode-single-media  text-left"><div class="single-wrapper" style="max-width: 100%;"><div class="tmb tmb-light  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg"><div class="t-inside"><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="uncode-single-media-wrapper"><img decoding="async" class="wp-image-6074" src="/wp-content/uploads/kiosk-placeholderr.webp" width="1290" height="1170" alt="" srcset="/wp-content/uploads/kiosk-placeholderr.webp 1290w, /wp-content/uploads/kiosk-placeholderr-300x272.webp 300w, /wp-content/uploads/kiosk-placeholderr-1024x929.webp 1024w, /wp-content/uploads/kiosk-placeholderr-768x697.webp 768w, /wp-content/uploads/kiosk-placeholderr-600x544.webp 600w" sizes="(max-width: 1290px) 100vw, 1290px" /></div>
+</div>
+</div></div></div></div><figcaption>TITLE</figcaption></div></div></div></div></div></div><script id="script-sliding-third-tier-2" data-row="script-sliding-third-tier-2" type="text/javascript" class="vc_controls">UNCODE.initRow(document.getElementById("sliding-third-tier-2"));</script></div></div></div><div data-parent="true" class="vc_row row-container" id="sliding-third-tier-3"><div class="row limit-width row-parent"><div class="wpb_row row-inner"><div class="wpb_column pos-top pos-center align_left column_parent col-lg-2 sliding-caption single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont"><div class="uncode-single-media  text-left"><div class="single-wrapper" style="max-width: 100%;"><div class="tmb tmb-light  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg"><div class="t-inside"><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="uncode-single-media-wrapper"><img decoding="async" class="wp-image-6074" src="/wp-content/uploads/kiosk-placeholderr.webp" width="1290" height="1170" alt="" srcset="/wp-content/uploads/kiosk-placeholderr.webp 1290w, /wp-content/uploads/kiosk-placeholderr-300x272.webp 300w, /wp-content/uploads/kiosk-placeholderr-1024x929.webp 1024w, /wp-content/uploads/kiosk-placeholderr-768x697.webp 768w, /wp-content/uploads/kiosk-placeholderr-600x544.webp 600w" sizes="(max-width: 1290px) 100vw, 1290px" /></div>
+</div>
+</div></div></div></div><figcaption>TITLE</figcaption></div></div></div></div></div></div><div class="wpb_column pos-top pos-center align_left column_parent col-lg-2 sliding-caption single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont"><div class="uncode-single-media  text-left"><div class="single-wrapper" style="max-width: 100%;"><div class="tmb tmb-light  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg"><div class="t-inside"><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="uncode-single-media-wrapper"><img decoding="async" class="wp-image-6074" src="/wp-content/uploads/kiosk-placeholderr.webp" width="1290" height="1170" alt="" srcset="/wp-content/uploads/kiosk-placeholderr.webp 1290w, /wp-content/uploads/kiosk-placeholderr-300x272.webp 300w, /wp-content/uploads/kiosk-placeholderr-1024x929.webp 1024w, /wp-content/uploads/kiosk-placeholderr-768x697.webp 768w, /wp-content/uploads/kiosk-placeholderr-600x544.webp 600w" sizes="(max-width: 1290px) 100vw, 1290px" /></div>
+</div>
+</div></div></div></div><figcaption>TITLE</figcaption></div></div></div></div></div></div><div class="wpb_column pos-top pos-center align_left column_parent col-lg-2 sliding-caption single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont"><div class="uncode-single-media  text-left"><div class="single-wrapper" style="max-width: 100%;"><div class="tmb tmb-light  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg"><div class="t-inside"><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="uncode-single-media-wrapper"><img decoding="async" class="wp-image-6074" src="/wp-content/uploads/kiosk-placeholderr.webp" width="1290" height="1170" alt="" srcset="/wp-content/uploads/kiosk-placeholderr.webp 1290w, /wp-content/uploads/kiosk-placeholderr-300x272.webp 300w, /wp-content/uploads/kiosk-placeholderr-1024x929.webp 1024w, /wp-content/uploads/kiosk-placeholderr-768x697.webp 768w, /wp-content/uploads/kiosk-placeholderr-600x544.webp 600w" sizes="(max-width: 1290px) 100vw, 1290px" /></div>
+</div>
+</div></div></div></div><figcaption>TITLE</figcaption></div></div></div></div></div></div><div class="wpb_column pos-top pos-center align_left column_parent col-lg-2 sliding-caption single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont"><div class="uncode-single-media  text-left"><div class="single-wrapper" style="max-width: 100%;"><div class="tmb tmb-light  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg"><div class="t-inside"><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="uncode-single-media-wrapper"><img decoding="async" class="wp-image-6074" src="/wp-content/uploads/kiosk-placeholderr.webp" width="1290" height="1170" alt="" srcset="/wp-content/uploads/kiosk-placeholderr.webp 1290w, /wp-content/uploads/kiosk-placeholderr-300x272.webp 300w, /wp-content/uploads/kiosk-placeholderr-1024x929.webp 1024w, /wp-content/uploads/kiosk-placeholderr-768x697.webp 768w, /wp-content/uploads/kiosk-placeholderr-600x544.webp 600w" sizes="(max-width: 1290px) 100vw, 1290px" /></div>
+</div>
+</div></div></div></div><figcaption>TITLE</figcaption></div></div></div></div></div></div><div class="wpb_column pos-top pos-center align_left column_parent col-lg-2 sliding-caption single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont"><div class="uncode-single-media  text-left"><div class="single-wrapper" style="max-width: 100%;"><div class="tmb tmb-light  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg"><div class="t-inside"><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="uncode-single-media-wrapper"><img decoding="async" class="wp-image-6074" src="/wp-content/uploads/kiosk-placeholderr.webp" width="1290" height="1170" alt="" srcset="/wp-content/uploads/kiosk-placeholderr.webp 1290w, /wp-content/uploads/kiosk-placeholderr-300x272.webp 300w, /wp-content/uploads/kiosk-placeholderr-1024x929.webp 1024w, /wp-content/uploads/kiosk-placeholderr-768x697.webp 768w, /wp-content/uploads/kiosk-placeholderr-600x544.webp 600w" sizes="(max-width: 1290px) 100vw, 1290px" /></div>
+</div>
+</div></div></div></div><figcaption>TITLE</figcaption></div></div></div></div></div></div><script id="script-sliding-third-tier-3" data-row="script-sliding-third-tier-3" type="text/javascript" class="vc_controls">UNCODE.initRow(document.getElementById("sliding-third-tier-3"));</script></div></div></div><div data-parent="true" class="vc_row row-container" id="row-unique-1"><div class="row limit-width row-parent"><div class="wpb_row row-inner"><div class="wpb_column pos-top pos-center align_left column_parent col-lg-12 single-internal-gutter"><div class="uncol style-light"  ><div class="uncoltable"><div class="uncell no-block-padding" ><div class="uncont">
+<div class="wpb_raw_code wpb_raw_js" >
+<div class="wpb_wrapper">
+<script type="text/javascript">
+jQuery(document).ready(function () {
+jQuery("#hinged-second-tier").hide();
+jQuery("#hinged-third-tier-1").hide();
+jQuery("#hinged-third-tier-2").hide();
+jQuery("#hinged-third-tier-3").hide();
+jQuery("#digital-second-tier").hide();
+jQuery("#digital-third-tier-1").hide();
+jQuery("#digital-third-tier-2").hide();
+jQuery("#digital-third-tier-3").hide();
+jQuery("#sliding-second-tier").hide();
+jQuery("#sliding-third-tier-1").hide();
+jQuery("#sliding-third-tier-2").hide();
+jQuery("#sliding-third-tier-3").hide();
+jQuery("#select-type").hide();
+jQuery("#select-finish-hinged").hide();
+jQuery("#select-finish-digital").hide();
+jQuery("#select-finish-sliding").hide();
+
+// HINGED
+jQuery("#hinged").on("click", function (e) {
+e.stopPropagation();
+jQuery("#kiosk-first-tier img").css("opacity", "0.2");
+jQuery("#hinged img").css("opacity", "1");
+
+if (jQuery("#hinged-second-tier").is(":visible")) {
+jQuery("#hinged-second-tier").hide();
+jQuery("#select-type").hide();
+jQuery("#hinged-third-tier-1").hide();
+jQuery("#hinged-third-tier-2").hide();
+jQuery("#hinged-third-tier-3").hide();
+jQuery("#select-finish-hinged").hide();
+jQuery("#select-finish-digital").hide();
+jQuery("#select-finish-sliding").hide();
+} else {
+jQuery("#hinged-second-tier").show();
+jQuery("#select-type").show();
+jQuery("#digital-second-tier").hide();
+jQuery("#sliding-second-tier").hide();
+jQuery("#hinged-third-tier-1").hide();
+jQuery("#hinged-third-tier-2").hide();
+jQuery("#hinged-third-tier-3").hide();
+jQuery("#digital-third-tier-1").hide();
+jQuery("#digital-third-tier-2").hide();
+jQuery("#digital-third-tier-3").hide();
+jQuery("#sliding-third-tier-1").hide();
+jQuery("#sliding-third-tier-2").hide();
+jQuery("#sliding-third-tier-3").hide();
+jQuery("#select-finish-hinged").hide();
+jQuery("#select-finish-digital").hide();
+jQuery("#select-finish-sliding").hide();
+}
+});
+jQuery("#hinged-1").on("click", function (e) {
+e.stopPropagation();
+jQuery("#hinged-second-tier img").css("opacity", "0.4");
+jQuery("#hinged-1 img").css("opacity", "1");
+
+if (jQuery("#hinged-third-tier-1").is(":visible")) {
+jQuery("#hinged-third-tier-1").hide();
+
+} else {
+jQuery("#hinged-third-tier-1").show();
+jQuery("#select-finish-hinged").show();
+jQuery("#hinged-third-tier-2").hide();
+jQuery("#hinged-third-tier-3").hide();
+}
+});
+jQuery("#hinged-2").on("click", function (e) {
+e.stopPropagation();
+jQuery("#hinged-second-tier img").css("opacity", "0.4");
+jQuery("#hinged-2 img").css("opacity", "1");
+
+if (jQuery("#hinged-third-tier-2").is(":visible")) {
+jQuery("#hinged-third-tier-2").hide();
+
+} else {
+jQuery("#hinged-third-tier-2").show();
+jQuery("#select-finish-hinged").show();
+jQuery("#hinged-third-tier-1").hide();
+jQuery("#hinged-third-tier-3").hide();
+}
+});
+jQuery("#hinged-3").on("click", function (e) {
+e.stopPropagation();
+jQuery("#hinged-second-tier img").css("opacity", "0.4");
+jQuery("#hinged-3 img").css("opacity", "1");
+
+if (jQuery("#hinged-third-tier-3").is(":visible")) {
+jQuery("#hinged-third-tier-3").hide();
+
+} else {
+jQuery("#hinged-third-tier-3").show();
+jQuery("#select-finish-hinged").show();
+jQuery("#hinged-third-tier-1").hide();
+jQuery("#hinged-third-tier-2").hide();
+}
+});
+
+// DIGITAL
+jQuery("#digital").on("click", function (e) {
+e.stopPropagation();
+jQuery("#kiosk-first-tier img").css("opacity", "0.4");
+jQuery("#digital img").css("opacity", "1");
+
+if (jQuery("#digital-second-tier").is(":visible")) {
+jQuery("#digital-second-tier").hide();
+jQuery("#select-type").hide();
+jQuery("#digital-third-tier-1").hide();
+jQuery("#digital-third-tier-2").hide();
+jQuery("#digital-third-tier-3").hide();
+jQuery("#select-finish-hinged").hide();
+jQuery("#select-finish-digital").hide();
+jQuery("#select-finish-sliding").hide();
+} else {
+jQuery("#digital-second-tier").show();
+jQuery("#select-type").show();
+jQuery("#hinged-second-tier").hide();
+jQuery("#sliding-second-tier").hide();
+jQuery("#hinged-third-tier-1").hide();
+jQuery("#hinged-third-tier-2").hide();
+jQuery("#hinged-third-tier-3").hide();
+jQuery("#digital-third-tier-1").hide();
+jQuery("#digital-third-tier-2").hide();
+jQuery("#digital-third-tier-3").hide();
+jQuery("#sliding-third-tier-1").hide();
+jQuery("#sliding-third-tier-2").hide();
+jQuery("#sliding-third-tier-3").hide();
+jQuery("#select-finish-hinged").hide();
+jQuery("#select-finish-digital").hide();
+jQuery("#select-finish-sliding").hide();
+}
+});
+jQuery("#digital-1").on("click", function (e) {
+e.stopPropagation();
+jQuery("#digital-second-tier img").css("opacity", "0.4");
+jQuery("#digital-1 img").css("opacity", "1");
+
+if (jQuery("#digital-third-tier-1").is(":visible")) {
+jQuery("#digital-third-tier-1").hide();
+} else {
+jQuery("#digital-third-tier-1").show();
+jQuery("#select-finish-digital").show();
+jQuery("#digital-third-tier-2").hide();
+jQuery("#digital-third-tier-3").hide();
+}
+});
+jQuery("#digital-2").on("click", function (e) {
+e.stopPropagation();
+jQuery("#digital-second-tier img").css("opacity", "0.4");
+jQuery("#digital-2 img").css("opacity", "1");
+
+if (jQuery("#digital-third-tier-2").is(":visible")) {
+jQuery("#digital-third-tier-2").hide();
+} else {
+jQuery("#digital-third-tier-2").show();
+jQuery("#select-finish-digital").show();
+jQuery("#digital-third-tier-1").hide();
+jQuery("#digital-third-tier-3").hide();
+}
+});
+jQuery("#digital-3").on("click", function (e) {
+e.stopPropagation();
+jQuery("#digital-second-tier img").css("opacity", "0.4");
+jQuery("#digital-3 img").css("opacity", "1");
+
+if (jQuery("#digital-third-tier-3").is(":visible")) {
+jQuery("#digital-third-tier-3").hide();
+} else {
+jQuery("#digital-third-tier-3").show();
+jQuery("#select-finish-digital").show();
+jQuery("#digital-third-tier-1").hide();
+jQuery("#digital-third-tier-2").hide();
+}
+});
+
+
+// SLIDING
+jQuery("#sliding").on("click", function (e) {
+e.stopPropagation();
+jQuery("#kiosk-first-tier img").css("opacity", "0.4");
+jQuery("#sliding img").css("opacity", "1");
+
+if (jQuery("#sliding-second-tier").is(":visible")) {
+jQuery("#sliding-second-tier").hide();
+jQuery("#select-type").hide();
+jQuery("#sliding-third-tier-1").hide();
+jQuery("#sliding-third-tier-2").hide();
+jQuery("#sliding-third-tier-3").hide();
+jQuery("#select-finish-hinged").hide();
+jQuery("#select-finish-digital").hide();
+jQuery("#select-finish-sliding").hide();
+} else {
+jQuery("#sliding-second-tier").show();
+jQuery("#select-type").show();
+jQuery("#hinged-second-tier").hide();
+jQuery("#digital-second-tier").hide();
+jQuery("#hinged-third-tier-1").hide();
+jQuery("#hinged-third-tier-2").hide();
+jQuery("#hinged-third-tier-3").hide();
+jQuery("#digital-third-tier-1").hide();
+jQuery("#digital-third-tier-2").hide();
+jQuery("#digital-third-tier-3").hide();
+jQuery("#sliding-third-tier-1").hide();
+jQuery("#sliding-third-tier-2").hide();
+jQuery("#sliding-third-tier-3").hide();
+jQuery("#select-finish-hinged").hide();
+jQuery("#select-finish-digital").hide();
+jQuery("#select-finish-sliding").hide();
+}
+});
+jQuery("#sliding-1").on("click", function (e) {
+e.stopPropagation();
+jQuery("#sliding-second-tier img").css("opacity", "0.4");
+jQuery("#sliding-1 img").css("opacity", "1");
+
+if (jQuery("#sliding-third-tier-1").is(":visible")) {
+jQuery("#sliding-third-tier-1").hide();
+} else {
+jQuery("#sliding-third-tier-1").show();
+jQuery("#select-finish-sliding").show();
+jQuery("#sliding-third-tier-2").hide();
+jQuery("#sliding-third-tier-3").hide();
+}
+});
+jQuery("#sliding-2").on("click", function (e) {
+e.stopPropagation();
+jQuery("#sliding-second-tier img").css("opacity", "0.4");
+jQuery("#sliding-2 img").css("opacity", "1");
+
+if (jQuery("#sliding-third-tier-2").is(":visible")) {
+jQuery("#sliding-third-tier-2").hide();
+} else {
+jQuery("#sliding-third-tier-2").show();
+jQuery("#select-finish-sliding").show();
+jQuery("#sliding-third-tier-1").hide();
+jQuery("#sliding-third-tier-3").hide();
+}
+});
+jQuery("#sliding-3").on("click", function (e) {
+e.stopPropagation();
+jQuery("#sliding-second-tier img").css("opacity", "0.4");
+jQuery("#sliding-3 img").css("opacity", "1");
+
+if (jQuery("#sliding-third-tier-3").is(":visible")) {
+jQuery("#sliding-third-tier-3").hide();
+} else {
+jQuery("#sliding-third-tier-3").show();
+jQuery("#select-finish-sliding").show();
+jQuery("#sliding-third-tier-1").hide();
+jQuery("#sliding-third-tier-2").hide();
+}
+});
+
+
+
+
+// Prevent clicks inside the div from closing it
+jQuery("#hinged-second-tier").on("click", function (e) {
+e.stopPropagation();
+});
+jQuery("#hinged-third-tier-1").on("click", function (e) {
+e.stopPropagation();
+});
+jQuery("#hinged-third-tier-2").on("click", function (e) {
+e.stopPropagation();
+});
+jQuery("#hinged-third-tier-3").on("click", function (e) {
+e.stopPropagation();
+});
+jQuery("#digital-second-tier").on("click", function (e) {
+e.stopPropagation();
+});
+jQuery("#digital-third-tier-1").on("click", function (e) {
+e.stopPropagation();
+});
+jQuery("#digital-third-tier-2").on("click", function (e) {
+e.stopPropagation();
+});
+jQuery("#digital-third-tier-3").on("click", function (e) {
+e.stopPropagation();
+});
+jQuery("#sliding-second-tier").on("click", function (e) {
+e.stopPropagation();
+});
+jQuery("#sliding-third-tier-1").on("click", function (e) {
+e.stopPropagation();
+});
+jQuery("#sliding-third-tier-2").on("click", function (e) {
+e.stopPropagation();
+});
+jQuery("#sliding-third-tier-3").on("click", function (e) {
+e.stopPropagation();
+});
+
+// Hide when clicking anywhere else
+jQuery(document).on("click", function () {
+jQuery("#hinged-second-tier").hide();
+jQuery("#hinged-third-tier-1").hide();
+jQuery("#hinged-third-tier-2").hide();
+jQuery("#hinged-third-tier-3").hide();
+jQuery("#digital-second-tier").hide();
+jQuery("#digital-third-tier-1").hide();
+jQuery("#digital-third-tier-2").hide();
+jQuery("#digital-third-tier-3").hide();
+jQuery("#sliding-second-tier").hide();
+jQuery("#sliding-third-tier-1").hide();
+jQuery("#sliding-third-tier-2").hide();
+jQuery("#sliding-third-tier-3").hide();
+});
+});
+</script>
+</div>
+</div>
+</div></div></div></div></div><script id="script-row-unique-1" data-row="script-row-unique-1" type="text/javascript" class="vc_controls">UNCODE.initRow(document.getElementById("row-unique-1"));</script></div></div></div></div></div>
+</div>
+</article>
+</div><!-- sections container -->
+</div><!-- page wrapper -->
+</div><!-- main container -->
+</div><!-- main wrapper -->
+</div><!-- box container -->
+</div><!-- box wrapper -->
+<div class="style-light footer-scroll-top footer-scroll-circle"><a href="/kiosk/index.html" class="scroll-top"><i class="fa fa-angle-up fa-stack btn-default btn-hover-nobg"></i></a></div>
+<div class="overlay overlay-sequential style-dark style-dark-bg overlay-search" data-area="search" data-container="box-container">
+<div class="mmb-container"><div class="menu-close-search mobile-menu-button menu-button-offcanvas mobile-menu-button-dark lines-button overlay-close close" data-area="search" data-container="box-container"><span class="lines"></span></div></div>
+<div class="search-container"><div class="aws-container" data-url="/?wc-ajax=aws_action" data-siteurl="https://austyle.com.au" data-lang="" data-show-loader="true" data-show-more="true" data-show-page="true" data-ajax-search="true" data-show-clear="true" data-mobile-screen="false" data-use-analytics="false" data-min-chars="1" data-buttons-order="1" data-timeout="300" data-is-mobile="false" data-page-id="5988" data-tax="" ><form class="aws-search-form" action="https://austyle.com.au/" method="get" role="search" ><div class="aws-wrapper"><label class="aws-search-label" for="6ab785017d2ab">Search</label><input type="search" name="s" id="6ab785017d2ab" value="" class="aws-search-field" placeholder="Search" autocomplete="off" /><input type="hidden" name="post_type" value="product"><input type="hidden" name="type_aws" value="true"><div class="aws-search-clear"><span>×</span></div><div class="aws-loader"></div></div></form></div></div>
+</div>
+
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/uncode-child/*","/wp-content/themes/uncode/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script>
+jQuery(function($){
+
+
+});
+</script>
+<div id="fb-root"></div>
+<script type="text/html" id="wpb-modifications"></script>	<script type="text/javascript">
+(function () {
+var c = document.body.className;
+c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+document.body.className = c;
+})();
+</script>
+<script id="wp-polyfill-js" src="/wp-includes/js/dist/vendor/wp-polyfill.min.js"></script>
+<script id="contact-form-7-js-extra">
+var wpcf7 = {"api":{"root":"https://austyle.com.au/wp-json/","namespace":"contact-form-7/v1"}};
+//# sourceURL=contact-form-7-js-extra
+</script>
+<script id="contact-form-7-js" src="/wp-content/plugins/contact-form-7/includes/js/index.js"></script>
+<script id="wp-hooks-js" src="/wp-includes/js/dist/hooks.min.js"></script>
+<script id="wp-i18n-js" src="/wp-includes/js/dist/i18n.min.js"></script>
+<script id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+//# sourceURL=wp-i18n-js-after
+</script>
+<script id="jquery-form-js" src="/wp-includes/js/jquery/jquery.form.min.js"></script>
+<script id="js-cookie-js" src="/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js"></script>
+<script id="woocommerce-js-extra">
+var woocommerce_params = {"ajax_url":"/wp-admin/admin-ajax.php","wc_ajax_url":"/?wc-ajax=%%endpoint%%"};
+//# sourceURL=woocommerce-js-extra
+</script>
+<script id="woocommerce-js" src="/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js"></script>
+<script id="wc-cart-fragments-js-extra">
+var wc_cart_fragments_params = {"ajax_url":"/wp-admin/admin-ajax.php","wc_ajax_url":"/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_159d3f87d6cf2fe90713d573c61197d6","fragment_name":"wc_fragments_159d3f87d6cf2fe90713d573c61197d6","request_timeout":"5000"};
+//# sourceURL=wc-cart-fragments-js-extra
+</script>
+<script id="wc-cart-fragments-js" src="/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js"></script>
+<script id="aws-script-js-extra">
+var aws_vars = {"sale":"Sale!","sku":"SKU: ","showmore":"View all results","noresults":"Nothing found"};
+//# sourceURL=aws-script-js-extra
+</script>
+<script id="aws-script-js" src="/wp-content/plugins/advanced-woo-search/assets/js/common.js"></script>
+<script id="uncode-plugins-js" src="/wp-content/themes/uncode/library/js/plugins.js"></script>
+<script id="uncode-app-js" src="/wp-content/themes/uncode/library/js/app.js"></script>
+<script id="woocommerce-uncode-js-extra">
+var UncodeWCParameters = {"empty_cart_url":""};
+//# sourceURL=woocommerce-uncode-js-extra
+</script>
+<script id="woocommerce-uncode-js" src="/wp-content/themes/uncode/library/js/woocommerce-uncode.js"></script>
+<script id="google-recaptcha-js" src="https://www.google.com/recaptcha/api.js?render=6Le21-wmAAAAAJmp01djmjT9ZTRPv_adF58Y95Ct&#038;ver=3.0"></script>
+<script id="wpcf7-recaptcha-js-extra">
+var wpcf7_recaptcha = {"sitekey":"6Le21-wmAAAAAJmp01djmjT9ZTRPv_adF58Y95Ct","actions":{"homepage":"homepage","contactform":"contactform"}};
+//# sourceURL=wpcf7-recaptcha-js-extra
+</script>
+<script id="wpcf7-recaptcha-js" src="/wp-content/plugins/contact-form-7/modules/recaptcha/index.js"></script>
+<script id="bootstrap-js" src="/wp-content/plugins/wordpress-store-locator/public/js/bootstrap.min.js"></script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://austyle.com.au/wp-includes/js/wp-emoji-release.min.js?ver=7.1.2"}}
+</script>
+<script type="module">
+/*! This file is auto-generated */
+var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof HTMLScriptElement))throw new Error("Element missing: "+e);const r=JSON.parse(t.text),s=(window._wpemojiSettings=r,"wpEmojiSettingsSupports"),o=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(s,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const r=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===r[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,r){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!r(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,r){let a;const s=(a="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),o=(s.textBaseline="top",s.font="600 32px Arial",{});return e.forEach(e=>{o[e]=t(s,e,n,r)}),o}function a(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}r.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(s));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(o),u.toString(),c.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"});const a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=e=>{i(n=e.data),a.terminate(),t(n)})}catch(e){}i(n=f(o,u,c,p))}t(n)}).then(e=>{for(const n in e)r.supports[n]=e[n],r.supports.everything=r.supports.everything&&r.supports[n],"flag"!==n&&(r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&r.supports[n]);var t;r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&!r.supports.flag,r.supports.everything||((t=r.source||{}).concatemoji?a(t.concatemoji):t.wpemoji&&t.twemoji&&(a(t.twemoji),a(t.wpemoji)))});
+//# sourceURL=https://austyle.com.au/wp-includes/js/wp-emoji-loader.min.js
+</script>
+<script type="text/javascript">
+window.addEventListener("load", function(event) {
+jQuery(".cfx_form_main,.wpcf7-form,.wpforms-form,.gform_wrapper form").each(function(){
+var form=jQuery(this); 
+var screen_width=""; var screen_height="";
+if(screen_width == ""){
+if(screen){
+screen_width=screen.width;  
+}else{
+screen_width=jQuery(window).width();
+}    }  
+if(screen_height == ""){
+if(screen){
+screen_height=screen.height;  
+}else{
+screen_height=jQuery(window).height();
+}    }
+form.append('<input type="hidden" name="vx_width" value="'+screen_width+'">');
+form.append('<input type="hidden" name="vx_height" value="'+screen_height+'">');
+form.append('<input type="hidden" name="vx_url" value="'+window.location.href+'">');  
+}); 
+
+});
+</script> 
+<script src="/demo.js" defer></script></body>
+</html>
